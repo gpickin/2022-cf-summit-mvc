@@ -1,0 +1,13 @@
+{
+    "web":{
+        "rewrites":{
+            "enable":"true"
+        },
+        "http":{
+            "port":"59636"
+        }
+    },
+    "app":{
+        "cfengine":"adobe@2021"
+    }
+}

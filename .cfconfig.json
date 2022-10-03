@@ -1,0 +1,21 @@
+{
+  "robustExceptionEnabled": true,
+  "requestTimeoutEnabled": true,
+  "whitespaceManagement": "white-space-pref",
+  "requestTimeout": "0,0,5,0",
+  "datasources": {
+    "soapbox": {
+      "host": "127.0.0.1",
+      "dbdriver": "MySQL",
+      "database": "soapbox",
+      "dsn": "jdbc:mysql://127.0.0.1:3306/soapbox",
+      "custom": "useUnicode=true&characterEncoding=UTF-8&useLegacyDatetimeCode=true&autoReconnect=true",
+      "port": "3306",
+      "class": "com.mysql.cj.jdbc.Driver",
+      "username": "root",
+      "password": "topsecret",
+      "connectionLimit": "100",
+      "connectionTimeout": "1"
+    }
+  }
+}

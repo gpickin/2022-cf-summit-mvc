@@ -1,0 +1,10 @@
+{
+  "name": "MVC",
+  "version": "1.0.0",
+  "location": "",
+  "author": "Gavin Pickin",
+  "devDependencies": {
+    "commandbox-cfconfig": "*"
+  },
+  "dependencies": {}
+}
