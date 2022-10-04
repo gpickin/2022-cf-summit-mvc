@@ -1,4 +1,4 @@
-component {
+component extends="__mvc.mvc" {
 
 	// Application properties
 	this.name              = "soapbox_#hash( getCurrentTemplatePath() )#";

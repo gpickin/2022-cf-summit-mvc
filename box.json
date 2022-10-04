@@ -6,5 +6,10 @@
   "devDependencies": {
     "commandbox-cfconfig": "*"
   },
-  "dependencies": {}
+  "dependencies": {
+    "coldbox": "^6.8.1+5"
+  },
+  "installPaths": {
+    "coldbox": "coldbox/"
+  }
 }
