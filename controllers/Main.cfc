@@ -1,11 +1,10 @@
 component {
         
+    property name="RantService" inject="RantService";
+
     function index(){
 
-        prc.rants = queryExecute( 
-            "SELECT * FROM `rants` 
-            ORDER BY `createdDate` DESC" 
-        );
+        prc.rants = RantService.list();
 
     }
 
